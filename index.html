@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+        /*   ---------------------------------------   Global CSS... -------------------------------------  */
+        
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        /*  ---------------------------------------   Hearder part CSS... ----------------------------------  */
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            text-align: center;
+            color: white;
+        }
+
+        .home,
+        .icon {
+            /* font-size: 30px; */
+            padding-top: 4%;
+            padding-right: 20px;
+        }
+
+        /*  ---------------------------------------- banner image css ------------------------------------------  */
+        .banner_img {
+
+            background-image: url("./1000_F_294541150_16lbmAdJapqkSSF5kkpndEX1fmX088t0.jpg");
+            height: 60vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        /*   ---------------------------------------   Product part CSS... ----------------------------------  */
+
+        .container {
+            width: 1170px;
+            margin: 0 auto;
+        }
+
+        .product {
+            background-color: white;
+            padding-top: 30PX;
+        }
+
+        .cards {
+            background-color: black;
+            color: white;
+            display: flex;
+            margin: 30px;
+            justify-content: space-between;
+        }
+
+
+        .card1,
+        .card2,
+        .card3 {
+            padding: 20px;
+            border-right: 5px solid white;
+        }
+
+        .icons {
+            padding-top: 7px;
+            font-size: larger;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .icons i {
+            font-size: 20px;
+        }
+
+        i:hover {
+            color: red;
+            background-color: white;
+
+        }
+
+        /* ---------------------------------------   Background image css... ---------------------------------- */
+
+        .back_img {
+            background-image: url("./b.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .back_img_dec {
+
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            color: white;
+            padding: 100px;
+        }
+
+        .form_map {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            color: white;
+            padding: 100px;
+        }
+
+        /* ---------------------------------------   Footer css... ---------------------------------- */
+
+        .footer {
+            text-align: center;
+            padding: 40px;
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!---------------------------------------   Hearder part ... ---------------------------------->
+
+    <div class="header">
+        <div class="logo"><img src="./download.png" alt="logo"></div>
+        <div class="home">
+            <h1>HOME </h1>
+        </div>
+        <div class="icon"><i class="fa fa-search" aria-hidden="true"></i></div>
+    </div>
+
+    <!---------------------------------------   Background image... ---------------------------------->
+
+    <div class="banner_img">
+        <!-- <img src="./images.jpg" alt="" width="100%" height="auto"> -->
+    </div>
+
+    <!---------------------------------------   Product part ... ------------------------------------->
+    <div class="container">
+        <div class="product">
+            <p style="text-align: center;font-size: 30px;"> <b>OUR PRODUCT</b></p>
+            <P style="justify-content: space-between;padding: 20px;">Lorem ipsum dolor, sit amet consectetur adipisicing
+                elit. Debitis ad natus, ex vitae accusantium quis
+                mollitia nihil voluptates rerum quia error facilis enim aspernatur dolore est, provident ea repudiandae
+                sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, facere ullam! Provident sint, ad
+                quam
+                autem dolorum tempore nostrum deserunt perferendis ullam nam quae aliquam voluptates tempora. Iure,
+                delectus
+                pariatur?</P>
+            <div class="cards">
+                <div class="card1">
+                    <div class="image"><img src="./a.jpg" alt=""></div>
+                    <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro odio
+                        dolores,
+                        perspiciatis sapiente neque, mollitia fuga animi enim eos facere impedit. Sapiente repudiandae
+                        illo
+                        adipisci accusantium amet distinctio, animi dolorem.</div>
+                    <div class="icons">
+                        <i class="fa fa-address-card-o" aria-hidden="true"></i>
+                        <i class="fa fa-podcast" aria-hidden="true"></i>
+                        <i class="fa fa-bandcamp" aria-hidden="true"></i>
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="card2">
+                    <div class="image"><img src="./a.jpg" alt=""></div>
+                    <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro odio
+                        dolores,
+                        perspiciatis sapiente neque, mollitia fuga animi enim eos facere impedit. Sapiente repudiandae
+                        illo
+                        adipisci accusantium amet distinctio, animi dolorem.</div>
+                    <div class="icons">
+                        <i class="fa fa-address-card-o" aria-hidden="true"></i>
+                        <i class="fa fa-podcast" aria-hidden="true"></i>
+                        <i class="fa fa-bandcamp" aria-hidden="true"></i>
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </div>
+
+                </div>
+                <div class="card3">
+                    <div class="image"><img src="./a.jpg" alt=""></div>
+                    <div class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro odio
+                        dolores,
+                        perspiciatis sapiente neque, mollitia fuga animi enim eos facere impedit. Sapiente repudiandae
+                        illo
+                        adipisci accusantium amet distinctio, animi dolorem.</div>
+                    <div class="icons">
+                        <i class="fa fa-address-card-o" aria-hidden="true"></i>
+                        <i class="fa fa-podcast" aria-hidden="true"></i>
+                        <i class="fa fa-bandcamp" aria-hidden="true"></i>
+                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------------------------------------   detail-gif-video-map part ... ---------------------------------->
+
+    <div class="back_img">
+        <div class="back_img_dec">
+            <div class="detail" style="border: 2px solid white;padding: 40px;">
+                <b>Detail : </b><br><br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut qui quo quas, iusto
+                adipisci aperiam consequatur saepe voluptatum
+                odio, quibusdam labore? Repudiandae, enim Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Quo,unde!
+                Qui recusandae ad eum est placeat quisquam laboriosam laudantium ducimus odit eos nihil dolorem
+                accusantium possimus, omnis
+                voluptate quam rem aut, molestias veritatis. mollitia nihil voluptates rerum quia error facilis enim
+                aspernatur
+                dolore est,provident ea repudiandae sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quos, facere ullam! Provident sint,
+                ad quam olorum tempore nostrum deserunt perferendis ullam nam quae aliquam voluptates tempora.
+                Iure,reprehenderit animi rerum minuss
+                delectus pariatur?
+            </div>
+            <div class="gif" style="border: 2px solid white;"><img src="./000e6c617f2eac48021d0ae1cf95eb6c.gif" alt=""
+                    height="auto" width="600px"></div>
+        </div>
+        <div class="form_map">
+            <div class="form" style="background-color: black;border: 2px solid white;;width: 100%;">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5oH9Nr3bKfw?si=unsTqU8FODIllfu4"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="map" style="border: 2px solid white;"><iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14771.411431637975!2d70.8000912!3d22.24566095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1708998076836!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+        </div>
+    </div>
+
+    <!---------------------------------------  Footer part ... ----------------------------------------->
+
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+</body>
+
+</html>
